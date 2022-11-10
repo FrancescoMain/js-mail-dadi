@@ -27,13 +27,31 @@
             <main>
                 <div class="ms_midcont">
                     <!-- bs component ===> https://getbootstrap.com/docs/5.2/forms/overview/ -->
-                    <div class="mb-3">
+                    <div id="formcont" class="mb-3">
                         <label for="Input1" class="form-label">Verifica la tua email</label>
                         <input type="email" class="form-control" id="Input1" placeholder="name@example.com">
                     </div>
+                    
+
                     <div>
                         <button id="btn" type="submit" class="btn btn-primary">Log in</button>
-                    </div>                    
+                    </div>      
+                    <div id="ms_afternone">
+                        <div class="mb-3">
+                            <label for="sing" class="form-label">Non sei registrato, registrati</label>
+                            <input id="singform" type="email" class="form-control"  placeholder="name@example.com">
+                        </div>
+                        <div>
+                            <button id="sing" type="submit" class="btn btn-primary">Sing in</button>
+                        </div>   
+                    </div>
+                    
+                    <div id="ms_afterlog">
+                        <div class="ms_afterlogcont">
+                            <h3>Accesso effettuato</h3>
+                            <button id="btn_play" type="submit" class="btn btn-primary"><a href="../dadi/index.html">Gioca</a> </button>
+                        </div>
+                    </div>
                 </div>
             </main>
         </div>
