@@ -27,3 +27,26 @@ body {
 h1 {
     font-size: 30px;
 }
+
+.ms_titlecont {
+
+   display: flex;
+   justify-content: center;
+   margin-top: 40px;
+}
+
+.ms_midcont {
+
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 200px;
+
+}
+
+/* modifiche font awesome  */
+.fa-dice {
+    margin-right: 10px;
+    color: #9de5a6;
+}
