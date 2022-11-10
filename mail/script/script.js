@@ -44,7 +44,7 @@ function () {
         function() {
             let singform = document.getElementById("singform").value
             emaillist.push(singform);
-            console.log(emailiar);
+            console.log(emaillist);
             const afterlog = document.getElementById("ms_afterlog");
             afterlog.style.display = "block"; 
             afterlog.style.filter = "opacity(1)"; 
